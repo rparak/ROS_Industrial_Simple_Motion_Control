@@ -83,7 +83,7 @@ Create Package
 $ catkin_create_pkg robot_ctrl rospy
 $ cd src/robot_ctrl
 
-Create Launch file
+Create Launch File
 
 $ mkdir launch
 $ cd launch
