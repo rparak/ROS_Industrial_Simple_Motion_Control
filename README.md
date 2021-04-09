@@ -3,6 +3,7 @@
 ## Requirements:
 
 **Software:**
+
 ```bash
 Robot Operating System (ROS) - Tested on Melodic distribution
 ```
@@ -17,6 +18,29 @@ Controlling the movement of multiple industrial robots (ABB, Fanuc, Universal Ro
 
 Main challenges of project implementation:
 - text
+
+**Setup a catkin workspace:**
+
+```bash
+Create Catkin
+
+$ source /opt/ros/melodic/setup.bash
+$ mkdir -p ~/catkin_ws/src
+$ cd ~/catkin_ws/
+$ catkin_make
+$ source devel/setup.bash
+$ echo $ROS_PACKAGE_PATH
+
+Create Package
+
+$ catkin_create_pkg robot_ctrl rospy
+$ cd src/robot_ctrl
+$ mkdir launch
+$ cd launch
+$ touch robot.launch
+$ roslaunch robot_ctrl robot.launch
+
+```
 
 The project was created to improve the [VRM (Programming for Robots and Manipulators)](https://github.com/rparak/Programming-for-robots-and-manipulators-VRM) university course.
 
