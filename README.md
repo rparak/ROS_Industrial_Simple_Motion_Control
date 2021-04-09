@@ -92,6 +92,8 @@ $ roslaunch robot_ctrl robot.launch
 
 ```
 
+ROS Tutorials: http://wiki.ros.org/ROS/Tutorials
+
 ## Contact Info:
 Roman.Parak@outlook.com
 
