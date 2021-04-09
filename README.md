@@ -10,33 +10,6 @@ Robot Operating System (ROS) - Tested on Melodic distribution
 
 ROS: https://www.ros.org
 
-
-**Setup a Catkin workspace:**
-
-```bash
-Create Catkin workspace
-
-$ source /opt/ros/melodic/setup.bash
-$ mkdir -p ~/catkin_ws/src
-$ cd ~/catkin_ws/
-$ catkin_make
-$ source devel/setup.bash
-$ echo $ROS_PACKAGE_PATH
-
-Create Package
-
-$ catkin_create_pkg robot_ctrl rospy
-$ cd src/robot_ctrl
-
-Create Launch file
-
-$ mkdir launch
-$ cd launch
-$ touch robot.launch
-$ roslaunch robot_ctrl robot.launch
-
-```
-
 ## Project Description:
 
 Simple demonstration of robot motion control and trajectory planning via the ROS system using several simulation tools (RVIZ, gazebo, etc.)
@@ -82,6 +55,33 @@ The project was realized at Institute of Automation and Computer Science, Brno U
   <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/2.png" width="800" height="450">
 </p>
 
+## Help:
+
+**Setup a Catkin workspace:**
+
+```bash
+Create Catkin workspace
+
+$ source /opt/ros/melodic/setup.bash
+$ mkdir -p ~/catkin_ws/src
+$ cd ~/catkin_ws/
+$ catkin_make
+$ source devel/setup.bash
+$ echo $ROS_PACKAGE_PATH
+
+Create Package
+
+$ catkin_create_pkg robot_ctrl rospy
+$ cd src/robot_ctrl
+
+Create Launch file
+
+$ mkdir launch
+$ cd launch
+$ touch robot.launch
+$ roslaunch robot_ctrl robot.launch
+
+```
 
 ## Contact Info:
 Roman.Parak@outlook.com
