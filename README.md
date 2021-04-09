@@ -51,8 +51,13 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 ```bash
 
+Terminal 1:
 $ roslaunch abb_irb1200_5_90_moveit_config demo.launch
+
+Terminal 2:
 $ roslaunch robot_ctrl demo.launch
+
+Terminal 3:
 $ rosrun robot_ctrl test.py
 
 ```
@@ -65,8 +70,13 @@ $ rosrun robot_ctrl test.py
 
 ```bash
 
+Terminal 1:
 $ roslaunch ur5_moveit_config demo.launch
+
+Terminal 2:
 $ roslaunch robot_ctrl demo.launch
+
+Terminal 3:
 $ rosrun robot_ctrl test.py
 
 ```
@@ -79,8 +89,13 @@ $ rosrun robot_ctrl test.py
 
 ```bash
 
+Terminal 1:
 $ roslaunch fanuc_cr7ia_moveit_config demo.launch
+
+Terminal 2:
 $ roslaunch robot_ctrl demo.launch
+
+Terminal 3:
 $ rosrun robot_ctrl test.py
 
 ```
