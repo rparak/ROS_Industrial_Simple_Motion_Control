@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="robot_ctrl" type="read_joint_pose.py" name="read_joint_pose"></node>
+    <node pkg="robot_ctrl" type="read_tcp_pose.py" name="read_tcp_pose"></node>
+    <node pkg="robot_ctrl" type="reset_robot.py" name="reset_robot"></node>
+    <rosparam param="object_pos">[0.0, 0.0, 0.0]</rosparam>
+    <rosparam param="object_visible">False</rosparam>
+    <node pkg="robot_ctrl" type="set_object.py" name="set_object"></node>
+</launch>
