@@ -1,1 +1,1 @@
-# ROS_Industrial_Simple_Motion_Control
+# ROS Industrial - Simple Motion Control
