@@ -35,14 +35,14 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 ## Project Hierarchy:
 
-**Repositary [/ABB-RobotStudo-Tutorial-SortingMachine/]:**
+**Repositary [/ROS_Industrial_Simple_Motion_Control/robot_ctrl/]:**
 
 ```bash
-[ Main Program (.rspag)                ] /Final/
-[ Project Template (without a robot)   ] /Template/ 
-[ Example of the resulting application ] /Exe_file/
-[ Rapid codes (.mod) - Right/Left Arm  ] /Rapid/
-[ Scene parts, gripper, etc.           ] /Project_Materials/
+[ ...  ] /config/
+[ ...  ] /launch/ 
+[ ...  ] /src/data_collection/
+[ ...  ] /src/service/
+[ ...  ] /src/main/
 ```
 
 ## Application:
