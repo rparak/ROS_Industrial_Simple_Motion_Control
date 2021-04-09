@@ -159,7 +159,7 @@ $ rosrun robot_ctrl test.py
   <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/2.png" width="800" height="450">
 </p>
 
-## Useful commands:
+## Useful Commands:
 
 **Setup a Catkin Workspace:**
 
