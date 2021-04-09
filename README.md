@@ -57,10 +57,10 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 ## Useful commands:
 
-**Setup a Catkin workspace:**
+**Setup a Catkin Workspace:**
 
 ```bash
-Create Catkin workspace
+Create Catkin Workspace
 
 $ source /opt/ros/melodic/setup.bash
 $ mkdir -p ~/catkin_ws/src
@@ -68,6 +68,10 @@ $ cd ~/catkin_ws/
 $ catkin_make
 $ source devel/setup.bash
 $ echo $ROS_PACKAGE_PATH
+
+Reset Catkin Workspace
+$ rm -r build devel
+$ rosclean purge
 
 Create Package
 
