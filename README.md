@@ -70,8 +70,13 @@ $ source devel/setup.bash
 $ echo $ROS_PACKAGE_PATH
 
 Reset Catkin Workspace
+
 $ rm -r build devel
 $ rosclean purge
+
+Reload
+
+$ catkin_make
 
 Create Package
 
