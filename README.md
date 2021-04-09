@@ -5,10 +5,12 @@
 **Software:**
 
 ```bash
-Robot Operating System (ROS) - Tested on Melodic distribution
+Robot Operating System (ROS) - Tested on Melodic distribution, Ubuntu 18.04
 ```
 
 ROS: https://www.ros.org
+Melodic Install: http://wiki.ros.org/melodic/Installation/Ubuntu
+Ubuntu 18.04: https://releases.ubuntu.com/18.04/
 
 ## Project Description:
 
