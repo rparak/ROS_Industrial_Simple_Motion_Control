@@ -49,6 +49,25 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 **ABB IRB 1200:**
 
+**Install:**
+
+```bash
+
+Note 1: replace '$ROS_DISTRO' with the ROS version (e.g. melodic, see 'branches/tags' in the github repository)
+Note 2: replace 'workspace_name' with used workspace (e.g. catkin_ws)
+
+$ cd $HOME/workspace_name/src
+$ git clone -b $ROS_DISTRO-devel https://github.com/ros-industrial/abb_experimental.git
+$ cd ..
+$ rosdep update
+$ rosdep install --rosdistro $ROS_DISTRO --ignore-src --from-paths src
+
+```
+
+Link: https://github.com/ros-industrial/abb_experimental
+
+**Robot Control:**
+
 ```bash
 
 Terminal 1:
@@ -68,6 +87,25 @@ $ rosrun robot_ctrl test.py
 
 **Universal Robots UR5:**
 
+**Install:**
+
+```bash
+
+Note 1: replace '$ROS_DISTRO' with the ROS version (e.g. melodic, see 'branches/tags' in the github repository)
+Note 2: replace 'workspace_name' with used workspace (e.g. catkin_ws)
+
+$ cd $HOME/workspace_name/src
+$ git clone -b $ROS_DISTRO-devel https://github.com/ros-industrial/universal_robot.git
+$ cd ..
+$ rosdep update
+$ rosdep install --rosdistro $ROS_DISTRO --ignore-src --from-paths src
+
+```
+
+Link: https://github.com/ros-industrial/universal_robot
+
+**Robot Control:**
+
 ```bash
 
 Terminal 1:
@@ -86,6 +124,23 @@ $ rosrun robot_ctrl test.py
 </p>
 
 **Fanuc CR-7iA:**
+
+```bash
+
+Note 1: replace '$ROS_DISTRO' with the ROS version (e.g. melodic, see 'branches/tags' in the github repository)
+Note 2: replace 'workspace_name' with used workspace (e.g. catkin_ws)
+
+$ cd $HOME/workspace_name/src
+$ git clone -b $ROS_DISTRO-devel https://github.com/ros-industrial/fanuc.git
+$ cd ..
+$ rosdep update
+$ rosdep install --rosdistro $ROS_DISTRO --ignore-src --from-paths src
+
+```
+
+Link: https://github.com/ros-industrial/fanuc
+
+**Robot Control:**
 
 ```bash
 
