@@ -47,7 +47,7 @@ The project was realized at Institute of Automation and Computer Science, Brno U
   <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/1.png" width="800" height="450">
 </p>
 
-**ABB IRB 120:**
+**Universal Robots Ur5:**
 
 <p align="center">
   <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/3.png" width="800" height="450">
