@@ -11,10 +11,10 @@ Robot Operating System (ROS) - Tested on Melodic distribution
 ROS: https://www.ros.org
 
 
-**Setup a catkin workspace:**
+**Setup a Catkin workspace:**
 
 ```bash
-Create Catkin
+Create Catkin workspace
 
 $ source /opt/ros/melodic/setup.bash
 $ mkdir -p ~/catkin_ws/src
@@ -27,6 +27,9 @@ Create Package
 
 $ catkin_create_pkg robot_ctrl rospy
 $ cd src/robot_ctrl
+
+Create Launch file
+
 $ mkdir launch
 $ cd launch
 $ touch robot.launch
