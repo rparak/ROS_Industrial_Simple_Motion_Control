@@ -28,9 +28,9 @@ The project was created to improve the [VRM (Programming for Robots and Manipula
 The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division)
 
 <p align="center">
-  <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/1_c.png" width="400" height="250">
-  <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/2_c.png" width="400" height="250">
-  <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/2_c.png" width="400" height="250">
+  <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/1_c.png" width="300" height="250">
+  <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/2_c.png" width="300" height="250">
+  <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/3_c.png" width="300" height="250">
 </p>
 
 ## Project Hierarchy:
