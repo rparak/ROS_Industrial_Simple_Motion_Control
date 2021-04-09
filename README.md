@@ -49,17 +49,41 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 **ABB IRB 1200:**
 
+```bash
+
+$ roslaunch abb_irb1200_5_90_moveit_config demo.launch
+$ roslaunch robot_ctrl demo.launch
+$ rosrun robot_ctrl test.py
+
+```
+
 <p align="center">
   <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/1.png" width="800" height="450">
 </p>
 
-**Universal Robots Ur5:**
+**Universal Robots UR5:**
+
+```bash
+
+$ roslaunch ur5_moveit_config demo.launch
+$ roslaunch robot_ctrl demo.launch
+$ rosrun robot_ctrl test.py
+
+```
 
 <p align="center">
   <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/3.png" width="800" height="450">
 </p>
 
 **Fanuc CR-7iA:**
+
+```bash
+
+$ roslaunch fanuc_cr7ia_moveit_config demo.launch
+$ roslaunch robot_ctrl demo.launch
+$ rosrun robot_ctrl test.py
+
+```
 
 <p align="center">
   <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/2.png" width="800" height="450">
