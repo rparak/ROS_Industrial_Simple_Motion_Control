@@ -196,6 +196,7 @@ def main():
     rospy.set_param('object_pos', position)
     rospy.set_param('object_visible', visible_object)
 
+    # Joint, Cartesian_1, Cartesian_2 or None
     mode = 'Cartesian_2'
 
     if mode == 'Joint':
