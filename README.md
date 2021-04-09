@@ -36,8 +36,22 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 ## Application:
 
+**ABB IRB 1200:**
+
 <p align="center">
   <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/1.png" width="800" height="450">
+</p>
+
+**ABB IRB 120:**
+
+<p align="center">
+  <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/3.png" width="800" height="450">
+</p>
+
+**Fanuc CR-7iA:**
+
+<p align="center">
+  <img src="https://github.com/rparak/ROS_Industrial_Simple_Motion_Control/blob/main/images/2.png" width="800" height="450">
 </p>
 
 
