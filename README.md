@@ -1,4 +1,4 @@
-# ROS Industrial - Simple Motion Control
+# ROS Industrial - Simple Motion Control (Introduction)
 
 ## Requirements:
 
