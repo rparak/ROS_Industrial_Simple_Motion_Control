@@ -16,7 +16,7 @@ Ubuntu 18.04: https://releases.ubuntu.com/18.04/
 
 ## Project Description:
 
-Simple demonstration of robot motion control and trajectory planning via the ROS system using simulation tool RVIZ (3D visualization tool for ROS). The main idea of the project is to control the motion and other dependencies of multiple industrial robots (ABB, Fanuc, Universal Robots, etc.) using the Python programming language as well as how to work with catkin, ros dependencies (publisher, subscriber, parameters, ...), launch files, etc.
+Simple demonstration of robot motion control and trajectory planning via the ROS system using simulation tool RVIZ (3D visualization tool for ROS). The main idea of the project is to control the motion and other dependencies of multiple industrial robots (ABB, Fanuc, Universal Robots, etc.) using the Python programming language and also the way to work with catkin, ros dependencies (publisher, subscriber, parameters, ...), launch files, etc.
 
 Main challenges of project implementation:
 - RVIZ simulation tool
