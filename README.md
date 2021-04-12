@@ -16,12 +16,13 @@ Ubuntu 18.04: https://releases.ubuntu.com/18.04/
 
 ## Project Description:
 
-Simple demonstration of robot motion control and trajectory planning via the ROS system using several simulation tools (RVIZ, gazebo, etc.)
-
-Controlling the movement of multiple industrial robots (ABB, Fanuc, Universal Robots, etc.) using the Python programming language (catkin, rospy, launch file, etc.)
+Simple demonstration of robot motion control and trajectory planning via the ROS system using simulation tool RVIZ (3D visualization tool for ROS). The main idea of the project is to control the motion and other dependencies of multiple industrial robots (ABB, Fanuc, Universal Robots, etc.) using the Python programming language as well as how to work with catkin, ros dependencies (publisher, subscriber, parameters, ...), launch files, etc.
 
 Main challenges of project implementation:
-- text
+- RVIZ simulation tool
+- robot motion control (joint, cartesian - different types of control)
+- rosparam, rostopic, rosservice, etc.
+- collision avoidance
 
 The project was created to improve the [VRM (Programming for Robots and Manipulators)](https://github.com/rparak/Programming-for-robots-and-manipulators-VRM) university course.
 
@@ -38,11 +39,11 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 **Repositary [/ROS_Industrial_Simple_Motion_Control/robot_ctrl/]:**
 
 ```bash
-[ ...  ] /config/
-[ ...  ] /launch/ 
-[ ...  ] /src/data_collection/
-[ ...  ] /src/service/
-[ ...  ] /src/main/
+[ Configuration file of the robot parameters      ] /config/
+[ Main Launch File (demo)                         ] /launch/ 
+[ Read joint/cartesian data                       ] /src/data_collection/
+[ Service (reset parameters, add object to env.)  ] /src/service/
+[ Main control script                             ] /src/main/
 ```
 
 ## Application:
