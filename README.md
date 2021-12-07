@@ -59,6 +59,7 @@ Note 2: replace 'workspace_name' with used workspace (e.g. catkin_ws)
 
 $ cd $HOME/workspace_name/src
 $ git clone -b $ROS_DISTRO-devel https://github.com/ros-industrial/abb_experimental.git
+$ git clone https://github.com/rparak/ROS_Industrial_Simple_Motion_Control.git
 $ cd ..
 $ rosdep update
 $ rosdep install --rosdistro $ROS_DISTRO --ignore-src --from-paths src
@@ -97,6 +98,7 @@ Note 2: replace 'workspace_name' with used workspace (e.g. catkin_ws)
 
 $ cd $HOME/workspace_name/src
 $ git clone -b $ROS_DISTRO-devel https://github.com/ros-industrial/universal_robot.git
+$ git clone https://github.com/rparak/ROS_Industrial_Simple_Motion_Control.git
 $ cd ..
 $ rosdep update
 $ rosdep install --rosdistro $ROS_DISTRO --ignore-src --from-paths src
@@ -133,6 +135,7 @@ Note 2: replace 'workspace_name' with used workspace (e.g. catkin_ws)
 
 $ cd $HOME/workspace_name/src
 $ git clone -b $ROS_DISTRO-devel https://github.com/ros-industrial/fanuc.git
+$ git clone https://github.com/rparak/ROS_Industrial_Simple_Motion_Control.git
 $ cd ..
 $ rosdep update
 $ rosdep install --rosdistro $ROS_DISTRO --ignore-src --from-paths src
