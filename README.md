@@ -191,8 +191,9 @@ $ catkin_make
 
 Create Package
 
+$ cd ~/catkin_ws/src
 $ catkin_create_pkg robot_ctrl rospy
-$ cd src/robot_ctrl
+$ cd robot_ctrl
 
 Create Launch File
 
